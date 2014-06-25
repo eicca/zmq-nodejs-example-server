@@ -1,0 +1,21 @@
+{
+  "name": "zmq_lazy_pirate_server",
+  "description": "Server implementation of zeromq lazy pirate pattern.",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "coffee-script": "*",
+    "zmq": "*",
+    "underscore": "*",
+    "winston": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "NODE_ENV=test mocha"
+  }
+}
